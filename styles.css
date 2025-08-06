@@ -45,7 +45,7 @@ header {
 .shows li {
     margin-bottom: 1rem;
     background: #222;
-    border-left: 4px solid #e00;
+    border-left: 4px solid #970c0f;
     padding: 0.7rem 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px #0002;
@@ -57,7 +57,7 @@ header {
 }
 
 a {
-    color: #e00;
+    color: #970c0f;
     text-decoration: none;
 }
 
