@@ -1,7 +1,7 @@
 // Voeg hier je komende optredens toe
 const gigs = [
 
-    { date: "21 september 2025", place: "Floralia, Nieuw Niedorp" },
+    { date: "21 september 2025", place: "Floralia, Nieuwe Niedorp" },
     { date: "28 september 2025", place: "Bloemencorso, Winkel" },   
     { date: "5 oktober 2025", place: "Dorpshuis, Warmenhuizen" },
     { date: "30 oktober 2025", place: "Podium Victorie, Alkmaar" },
