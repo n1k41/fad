@@ -32,6 +32,43 @@ header {
     text-align: center;
     margin-bottom: 2rem;
 }
+.bandleden {
+    margin-bottom: 2rem;
+    background: #181818;
+    border-radius: 14px;
+    padding: 1.2rem;
+    box-shadow: 0 4px 16px #0001;
+    text-align: center;
+}
+
+.bandleden h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.bandleden ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.bandleden li {
+    font-size: 1.07rem;
+    margin-bottom: 0.4rem;
+    padding-left: 1.2em;
+    position: relative;
+}
+
+.bandleden li::before {
+    content: "🎵";
+    position: absolute;
+    left: 0;
+}
 
 .shows ul {
     list-style: none;
