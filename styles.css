@@ -28,27 +28,10 @@ header {
     filter: drop-shadow(0 0 24px #fff2);
 }
 
-.intro, .shows, .contact {
+.intro, .shows, .contact, .bandleden {
     text-align: center;
     margin-bottom: 2rem;
 }
-.bandleden {
-    margin-bottom: 2rem;
-    background: #181818;
-    border-radius: 14px;
-    padding: 1.2rem;
-    box-shadow: 0 4px 16px #0001;
-    text-align: center;
-}
-
-.bandleden h2 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-    color: #fff;
-}
-
 .bandleden ul {
     list-style: none;
     padding: 0;
@@ -59,16 +42,16 @@ header {
 
 .bandleden li {
     font-size: 1.07rem;
-    margin-bottom: 0.4rem;
-    padding-left: 1.2em;
-    position: relative;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
 }
 
-.bandleden li::before {
-    content: "🎵";
-    position: absolute;
-    left: 0;
+.bandleden .icon {
+    font-size: 1.4em;
+    margin-right: 0.6em;
 }
+
 
 .shows ul {
     list-style: none;
