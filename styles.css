@@ -101,3 +101,6 @@ a:hover {
 .site-footer a:hover {
     text-decoration: underline;
 }
+.site-footer .insta-link:hover svg {
+    filter: brightness(1.3);
+}
