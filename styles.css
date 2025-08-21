@@ -86,3 +86,18 @@ a:hover {
         max-width: 140px;
     }
 }
+
+.site-footer {
+    margin-top: 2rem;
+    padding: 1.2rem 0;
+    background: #191919;
+    color: #b1b0b0;
+    text-align: center;
+    font-size: 0.90rem;
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 -2px 8px #0002;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
