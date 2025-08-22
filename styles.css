@@ -115,8 +115,8 @@ a:hover {
     width: 100vw;
     height: 100vh;
     background: 
-        linear-gradient(120deg, rgba(10,10,10,0.80) 70%, rgba(70,0,20,0.40) 100%),
-        url('bg-image.avif') center center/cover no-repeat;
+        linear-gradient(120deg, rgba(10,10,10,0.80) 50%, rgba(70,0,20,0.40) 100%),
+        url('bg-image.jpeg') center center/cover no-repeat;
     filter: blur(1px) brightness(1);
     pointer-events: none;
 }
