@@ -5,7 +5,7 @@ const gigs = [
     { date: "28 september, 12:30 uur", place: "Bloemencorso, Winkel" },
     { date: "30 oktober, 20:30 uur", place: "Podium Victorie, Alkmaar" },
     { date: "8 november, tijd volgt", place: "Ontmoeting, De Goorn" },
-    { date: "22 november, tijd volgt", place: "Warmenhuizen" },
+    { date: "22 november, tijd volgt", place: "Dorpshuis, Warmenhuizen" },
 ];
 
 const gigsList = document.getElementById('gigs-list');
