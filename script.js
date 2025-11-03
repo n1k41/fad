@@ -1,11 +1,12 @@
 // Voeg hier je komende optredens toe
 const gigs = [
 
-    { date: "21 september, afgelast ivm regen", place: "Floralia, Nieuwe Niedorp" },
-    { date: "28 september, 12:30 uur", place: "Bloemencorso, Winkel" },
-    { date: "30 oktober, 20:30 uur", place: "Podium Victorie, Alkmaar" },
-    { date: "8 november, tijd volgt", place: "Ontmoeting, De Goorn" },
-    { date: "22 november, tijd volgt", place: "Dorpshuis, Warmenhuizen" },
+    { date: "21 september", place: "Floralia, Nieuwe Niedorp" },
+    { date: "28 september", place: "Bloemencorso, Winkel" },
+    { date: "30 oktober", place: "Podium Victorie, Alkmaar" },
+    { date: "8 november, [besloten]", place: "Ontmoeting, De Goorn" },
+    { date: "22 november", place: "Dorpshuis, Warmenhuizen" },
+    { date: "Januari 2026", place: "Poppodium Manifesto, Hoorn" }
 ];
 
 const gigsList = document.getElementById('gigs-list');
