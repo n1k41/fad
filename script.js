@@ -4,7 +4,7 @@ const gigs = [
     { date: "21 september", place: "Floralia, Nieuwe Niedorp" },
     { date: "28 september", place: "Bloemencorso, Winkel" },
     { date: "30 oktober", place: "Podium Victorie, Alkmaar" },
-    { date: "8 november, [besloten]", place: "Ontmoeting, De Goorn" },
+    { date: "8 november", place: "Ontmoeting, De Goorn [besloten]" },
     { date: "22 november", place: "Dorpshuis, Warmenhuizen" },
     { date: "Januari 2026", place: "Poppodium Manifesto, Hoorn" }
 ];
