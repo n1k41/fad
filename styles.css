@@ -120,3 +120,166 @@ a:hover {
     filter: blur(1px) brightness(1);
     pointer-events: none;
 }
+
+/* --- Fotogalerij knop bij optredens --- */
+
+.shows li {
+    margin-bottom: 1rem;
+    background: #333;
+    border-left: 4px solid #970c0f;
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0002;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.gallery-btn {
+    align-self: flex-start;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.85rem;
+    border-radius: 999px;
+    border: 1px solid #e8e2ca;
+    background: transparent;
+    color: #e8e2ca;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+
+.gallery-btn:hover {
+    background: #e8e2ca;
+    color: #111;
+    transform: translateY(-1px);
+}
+
+/* --- Fotogalerij modal --- */
+
+.gallery-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.88);
+    display: none;           /* verborgen standaard */
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.gallery-modal.open {
+    display: flex;
+}
+
+.gallery-inner {
+    background: #111;
+    border-radius: 16px;
+    max-width: 960px;
+    width: 100%;
+    max-height: 90vh;
+    padding: 1.2rem 1.4rem 1.4rem;
+    box-shadow: 0 0 30px #000;
+    position: relative;
+    overflow-y: auto;
+}
+
+.gallery-inner h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.gallery-close {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.6rem;
+    background: transparent;
+    border: none;
+    color: #f4f4f4;
+    font-size: 1.7rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.gallery-close:hover {
+    color: #e8e2ca;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.7rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 180px;
+}
+/* --- Lightbox grote foto --- */
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    padding: 1rem;
+}
+
+.lightbox.open {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 95%;
+    max-height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 1rem;
+    right: 1.4rem;
+    font-size: 2rem;
+    background: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.lightbox-close:hover {
+    color: #e8e2ca;
+}
+
+/* --- Lightbox pijltjes --- */
+
+.lightbox-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1;
+    padding: 0.3rem 0.7rem;
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+.lightbox-arrow-left {
+    left: 1rem;
+}
+
+.lightbox-arrow-right {
+    right: 1rem;
+}
+
+.lightbox-arrow:hover {
+    background: rgba(0, 0, 0, 0.7);
+}

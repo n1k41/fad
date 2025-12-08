@@ -51,6 +51,18 @@
                 <p>We luisteren naar allerlei soorten muziek, maar op het podium spelen we vooral energieke alternative rock, grunge en punk. Denk aan Stereophonics, Incubus, Blur, Greenday en andere rammers!</p>
               </section>    
             <section class="bandleden">
+                
+            <!-- Fotogalerij modal -->
+            <div id="gallery-modal" class="gallery-modal" aria-hidden="true">
+                <div class="gallery-inner">
+                    <button class="gallery-close" type="button" aria-label="Sluit fotogalerij">×</button>
+                    <h2 id="gallery-title">Foto's</h2>
+                    <div id="gallery-grid" class="gallery-grid">
+                        <!-- Foto's worden hier door JavaScript ingezet -->
+                    </div>
+                </div>
+            </div>
+
                 <h2>Bandleden</h2>
                 <ul>
                     <li><span class="icon">🥁</span> <strong>Luna Anslijn</strong></li>
@@ -85,6 +97,31 @@
             Kudo's aan <a href="https://www.rocknrollfabriek.nl/" target="_blank" rel="noopener">Rock 'n Roll Fabriek</a> voor de oefenruimte en het organiseren van optredens.
         </p>
     </footer>
+
+     <!-- Fotogalerij modal -->
+    <div id="gallery-modal" class="gallery-modal" aria-hidden="true">
+        <div class="gallery-inner">
+            <button class="gallery-close" type="button" aria-label="Sluit fotogalerij">×</button>
+            <h2 id="gallery-title">Foto's</h2>
+            <div id="gallery-grid" class="gallery-grid">
+                <!-- Foto's worden hier door JavaScript ingezet -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox voor grote foto -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Sluit foto">×</button>
+
+        <!-- Pijltjes -->
+        <button class="lightbox-arrow lightbox-arrow-left" aria-label="Vorige foto">‹</button>
+        <img id="lightbox-img" src="" alt="Grote foto weergave">
+        <button class="lightbox-arrow lightbox-arrow-right" aria-label="Volgende foto">›</button>
+    </div>
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
+
