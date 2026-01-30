@@ -1,13 +1,19 @@
-/* // Voeg hier je komende optredens toe
+// Voeg hier je komende optredens toe
 const gigs = [
 
-    { date: "21 september", place: "Floralia, Nieuwe Niedorp" },
-    { date: "28 september", place: "Bloemencorso, Winkel" },
-    { date: "30 oktober", place: "Podium Victorie, Alkmaar" },
-    { date: "8 november", place: "Ontmoeting, De Goorn [besloten]" },
-    { date: "22 november (start: 20:00 uur)", place: "Dorpshuis, Warmenhuizen" },
-    { date: "29 november", place: "Argos, De Weere" },
-    { date: "Januari 2026", place: "Poppodium Manifesto, Hoorn" }
+    // { date: "21 september", place: "Floralia, Nieuwe Niedorp" },
+    // { date: "28 september", place: "Bloemencorso, Winkel" },
+    // { date: "30 oktober", place: "Podium Victorie, Alkmaar" },
+    // { date: "8 november", place: "Ontmoeting, De Goorn [besloten]" },
+    // { date: "22 november (start: 20:00 uur)", place: "Dorpshuis, Warmenhuizen" },
+    // { date: "29 november", place: "Argos, De Weere" },
+    { date: "5 februari 2026", place: "Poppodium Manifesto, Hoorn" },
+    { date: "6 februari 2026", place: "(Bolletjes) Cafe de Klok, Warmenhuizen" },
+    { date: "11 februari 2026", place: "Poppodium Victorie, Alkmaar" },
+    { date: "14 maart 2026", place: "Ahoi, Tuitjenhornn" },
+    { date: "29 mei 2026", place: "Scouting Live, Bergen" },
+    { date: "27 juni 2026", place: "De Heerlijkheid, Oudkarspel" }
+
 ];
 
 const gigsList = document.getElementById('gigs-list');
@@ -15,11 +21,14 @@ gigs.forEach(gig => {
     const li = document.createElement('li');
     li.textContent = `${gig.date} – ${gig.place}`;
     gigsList.appendChild(li);
-}); */
-
+});
+/*
 // Voeg hier je komende optredens toe
 // Voeg per optreden optioneel een 'photos' array toe met padnamen naar de foto's.
 // Voorbeeld mappenstructuur: img/gigs/floralia-2024/foto1.jpg
+
+
+
 const gigs = [
     
     {
@@ -115,6 +124,7 @@ gigs.forEach(gig => {
 
     gigsList.appendChild(li);
 });
+*/
 
 // ------- Fotogalerij functionaliteit -------
 
