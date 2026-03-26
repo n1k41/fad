@@ -10,9 +10,10 @@ const gigs = [
     { date: "5 februari 2026", place: "Poppodium Manifesto, Hoorn" },
     { date: "6 februari 2026", place: "(Bolletjes) Cafe de Klok, Warmenhuizen" },
     { date: "11 februari 2026", place: "Poppodium Victorie, Alkmaar" },
-    { date: "14 maart 2026", place: "Ahoi, Tuitjenhornn" },
-    { date: "29 mei 2026", place: "Scouting Live, Bergen" },
+    //{ date: "14 maart 2026", place: "Ahoi, Tuitjenhornn" },
+    //{ date: "29 mei 2026", place: "Scouting Live, Bergen" },
     { date: "27 juni 2026", place: "De Heerlijkheid, Oudkarspel" }
+      { date: "8 augustus 2026", place: "Dirkshorn" }
 
 ];
 
